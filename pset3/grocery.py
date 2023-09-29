@@ -12,7 +12,7 @@ def main():
 
     except EOFError:
         for item, count in items_count.items():
-            print("f{count} {item}")
+            print(f"{count} {item}")
 
 
 main()
